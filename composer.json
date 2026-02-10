@@ -1,0 +1,19 @@
+{
+    "name": "anastasiia/what-to-watch",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anastasiia",
+            "email": "bjko.smsng@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.1",
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
