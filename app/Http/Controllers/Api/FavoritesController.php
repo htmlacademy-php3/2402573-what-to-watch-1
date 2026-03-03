@@ -3,18 +3,19 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Responses\SuccessResponse;
 use Illuminate\Http\Request;
 
 class FavoritesController extends Controller
 {
     public function index() {
-        return response()->json();
+        return new SuccessResponse([], 200);
     }
     public function store($id) {
-        return response()->json();
+        return new SuccessResponse([], 200);
     }
 
     public function destroy($id) {
-        return response()->json();
+        return new SuccessResponse([], 200);
     }
 }
